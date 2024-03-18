@@ -1,0 +1,168 @@
+:root{
+	--color-wasabi-dark:#1C663A;
+	--color-wasabi:#76F5A9;
+	--color-yellow:#F5E876;
+	--color-darkgray:#2E2E2E;
+	--color-white:#ffffff;
+}
+header{
+	background-color: var(--color-darkgray);
+	padding: 0px 0px;
+	margin: -100px 0 0 0;
+	
+}
+
+header img{
+	width: 400px;
+	margin-right: 400px;
+	margin-left: 100px;
+	
+}
+body{
+	font-family: Segoe UI;
+	font-size: 16px;
+	line-height: 1.8;
+}
+/*about*/
+#about{
+	text-align: center;
+	color: white;
+	background-image:url("../img/About-me-BG.png");
+	background-size: 1699px;
+	padding: 50px 0px;
+	
+}
+
+#about img{
+	width: 500px;	
+	padding: 15px 0;	
+	margin-bottom: 30px;
+	align-content: center;
+
+	
+}
+#about .text-cube{
+	
+	background-color: rgba(46,46,46,0.8);
+	color: var(--color-white);
+	border-radius: 10px;
+	text-align: left;
+	padding: 100px 60px;
+	margin: 50px 0px;
+}
+
+#about h1{
+	color: var(--color-yellow);
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#about p{
+	font-size: 20px;
+	color: var(--color-white);
+	text-align: center;
+}
+/*Buttons*/
+.btn-normal{
+	background-color: var(--color-yellow);
+	color: var(--color-darkgray);
+	padding: 15px 40px;
+	border-radius: 40px;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-top: 40px;
+	margin-bottom: -30px;
+	font-size: 20px;
+}
+.btn-normal:hover{
+	background-color: var(--color-wasabi);
+	color: var(--color-darkgray);
+}
+/*footer*/
+footer{
+	background-color: var(--color-darkgray);
+	
+}
+footer img{
+	width: 200px;
+	margin-top: -10;
+	margin-bottom: 0px;
+	
+}
+footer h4{
+	color: var(--color-yellow);
+	font-size: 15px;
+	font-weight: 200px;
+	margin-top: 20px
+}
+/*Services
+c*/
+#services{
+	background-color: #498E64;
+}
+#services h1{
+	color:  var(--color-yellow);
+	padding: 60px 0;
+}
+#services h2{
+	color:  var(--color-yellow);
+}
+#services img{
+	width: 350px;
+	border: 10px solid #F5E876;
+	border-radius: 40px;
+}
+.text-box-serv{
+	background-color: var(--color-darkgray);
+	padding: 20px 0 ;
+	border-radius: 30px;
+}
+.center-serv{
+	margin: 50px 0;
+}
+/*Subscribe*/
+form{
+	display: block;
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-right: -600px;
+	color: #498E64; 
+}
+
+.btn-form{ 
+	background-color: var(--color-yellow);
+	color: var(--color-darkgray);
+	padding: 15px 20px;
+	border-radius: 40px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: -30px;
+	font-size: 15px;
+	margin-right: 1000px;
+}
+.btn-form:hover{
+	background-color: var(--color-wasabi);
+	color: var(--color-darkgray);
+}
+
+#subscribe{
+	background-color: var(--color-wasabi-dark);
+	padding: 300px 0px;
+}
+#subscribe h1{
+	color: var(--color-yellow);
+	font-size: 40px;
+}
+#subscribe h2{
+	color: var(--color-yellow);
+}
+/*images port*/
+#portfolio{
+	background-color: #498E64;
+	padding: 40px 0px;
+}
+#portfolio h1{
+	margin-bottom: 30px;
+	color: var(--color-yellow);
+}
